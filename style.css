@@ -18,11 +18,11 @@ main {
     margin: auto;
 }
 
+/* キャラクター画像の配置を左詰めに変更 */
 .agent-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
 }
 
 .agent-card {
