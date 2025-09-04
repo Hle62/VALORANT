@@ -1,0 +1,30 @@
+- agent: "Sova"
+  map: "Ascent"
+  image: "https://example.com/images/ascent.jpg" # マップ画像のURL
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+    - x: 30
+      y: 45
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Bサイト定点"
+
+- agent: "Brimstone"
+  map: "Ascent"
+  image: "https://example.com/images/ascent.jpg"
+  lineups:
+    - x: 60
+      y: 30
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト スモーク"
+
+- agent: "Viper"
+  map: "Bind"
+  image: "https://example.com/images/bind.jpg" # 別のマップ画像
+  lineups:
+    - x: 80
+      y: 20
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト オーブ"
