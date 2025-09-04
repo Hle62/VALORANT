@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VALORANT Lineup Guide</title>
+    <title>VALORANT 定点ガイド</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,24 +12,43 @@
     </header>
 
     <main>
-        <section class="controls">
-            <select id="agent-select">
-                <option value="">キャラクターを選択</option>
-            </select>
-
-            <select id="map-select">
-                <option value="">マップを選択</option>
-            </select>
+        <section id="agent-selection-screen">
+            <div id="デュエリスト-section" class="role-section">
+                <h2>デュエリスト</h2>
+                <div class="agent-grid"></div>
+            </div>
+            <div id="イニシエーター-section" class="role-section">
+                <h2>イニシエーター</h2>
+                <div class="agent-grid"></div>
+            </div>
+            <div id="コントローラー-section" class="role-section">
+                <h2>コントローラー</h2>
+                <div class="agent-grid"></div>
+            </div>
+            <div id="センチネル-section" class="role-section">
+                <h2>センチネル</h2>
+                <div class="agent-grid"></div>
+            </div>
         </section>
 
-        <section class="content">
-            <div id="map-container">
-                <img id="map-image" src="" alt="マップ画像" style="display:none;">
-            </div>
+        <section id="lineup-display-screen" style="display:none;">
+            <button id="back-button">キャラクター選択に戻る</button>
+            <h2 id="current-agent-name"></h2>
             
-            <div id="video-player">
-                <iframe id="lineup-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <section class="controls">
+                <select id="map-select">
+                    <option value="">マップを選択</option>
+                </select>
+            </section>
+
+            <section class="content">
+                <div id="map-container">
+                    <img id="map-image" src="" alt="マップ画像" style="display:none;">
+                </div>
+                <div id="video-player">
+                    <iframe id="lineup-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
         </section>
     </main>
 

@@ -18,6 +18,36 @@ main {
     margin: auto;
 }
 
+.agent-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.agent-card {
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.agent-card:hover {
+    border-color: #ff4655;
+}
+
+.agent-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.agent-card p {
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
 .controls {
     margin-bottom: 20px;
 }
@@ -40,7 +70,7 @@ main {
     background-color: red;
     border-radius: 50%;
     cursor: pointer;
-    transform: translate(-50%, -50%); /* 中央に配置 */
+    transform: translate(-50%, -50%);
 }
 
 #video-player {
