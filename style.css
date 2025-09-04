@@ -24,10 +24,19 @@ main {
     gap: 10px;
 }
 
-.agent-card, .map-card {
+/* キャラクター画像の設定 */
+.agent-card {
     cursor: pointer;
-    /* 画像サイズを大きく変更 */
-    width: 250px;
+    width: 150px; /* キャラクター画像は元のサイズに戻す */
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+/* マップ画像の設定 */
+.map-card {
+    cursor: pointer;
+    width: 250px; /* マップ画像を大きくする */
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.2s;
