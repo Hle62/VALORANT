@@ -46,10 +46,12 @@ main {
     border-color: #ff4655;
 }
 
+/* 画像にdisplay: block; を追加して下の余白をなくす */
 .agent-card img, .map-card img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    display: block; /* この行を追加 */
 }
 
 /* 画像下の文字を非表示に */
