@@ -24,19 +24,19 @@ main {
     gap: 10px;
 }
 
-/* キャラクター画像の設定 */
+/* キャラクターカードの設定 */
 .agent-card {
     cursor: pointer;
-    width: 150px; /* キャラクター画像は元のサイズに戻す */
+    width: 150px;
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.2s;
 }
 
-/* マップ画像の設定 */
+/* マップカードの設定 */
 .map-card {
     cursor: pointer;
-    width: 250px; /* マップ画像を大きくする */
+    width: 250px;
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.2s;
@@ -51,11 +51,18 @@ main {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    display: block; /* この行を追加 */
+    display: block;
 }
 
-/* 画像下の文字を非表示に */
-.agent-card p, .map-card p {
+/* キャラクター名の表示 */
+.agent-card p {
+    display: block; /* この行を追加 */
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
+/* マップ名の非表示（前回からの変更なし） */
+.map-card p {
     display: none;
 }
 
