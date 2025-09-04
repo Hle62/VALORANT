@@ -31,16 +31,16 @@
             </div>
         </section>
 
-        <section id="lineup-display-screen" style="display:none;">
-            <button id="back-button">キャラクター選択に戻る</button>
-            <h2 id="current-agent-name"></h2>
-            
-            <section class="controls">
-                <select id="map-select">
-                    <option value="">マップを選択</option>
-                </select>
-            </section>
+        <section id="map-selection-screen" style="display:none;">
+            <button id="back-to-agents-button">キャラクター選択に戻る</button>
+            <h2 id="selected-agent-name"></h2>
+            <div id="map-grid" class="agent-grid"></div>
+        </section>
 
+        <section id="lineup-display-screen" style="display:none;">
+            <button id="back-to-maps-button">マップ選択に戻る</button>
+            <h2 id="selected-map-name"></h2>
+            
             <section class="content">
                 <div id="map-container">
                     <img id="map-image" src="" alt="マップ画像" style="display:none;">

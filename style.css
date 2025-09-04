@@ -18,14 +18,13 @@ main {
     margin: auto;
 }
 
-/* キャラクター画像の配置を左詰めに変更 */
 .agent-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.agent-card {
+.agent-card, .map-card {
     cursor: pointer;
     width: 150px;
     text-align: center;
@@ -33,17 +32,17 @@ main {
     transition: border-color 0.2s;
 }
 
-.agent-card:hover {
+.agent-card:hover, .map-card:hover {
     border-color: #ff4655;
 }
 
-.agent-card img {
+.agent-card img, .map-card img {
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.agent-card p {
+.agent-card p, .map-card p {
     margin: 5px 0 0;
     font-weight: bold;
 }
@@ -76,4 +75,15 @@ main {
 #video-player {
     text-align: center;
     margin-top: 20px;
+}
+
+/* 戻るボタンのスタイル */
+#back-to-agents-button, #back-to-maps-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }

@@ -1,7 +1,7 @@
 - agent: "ジェット"
   role: "デュエリスト"
-  map: "アセント"
-  image: "https://example.com/images/ascent.jpg"
+  map_name: "アセント"
+  map_image: "アセント.png"
   lineups:
     - x: 50
       y: 70
@@ -10,8 +10,8 @@
 
 - agent: "レイナ"
   role: "デュエリスト"
-  map: "ヘイヴン"
-  image: "https://example.com/images/haven.jpg"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
   lineups:
     - x: 40
       y: 60
@@ -20,8 +20,8 @@
 
 - agent: "レイズ"
   role: "デュエリスト"
-  map: "バインド"
-  image: "https://example.com/images/bind.jpg"
+  map_name: "バインド"
+  map_image: "バインド.png"
   lineups:
     - x: 25
       y: 80
@@ -30,8 +30,8 @@
 
 - agent: "フェニックス"
   role: "デュエリスト"
-  map: "スプリット"
-  image: "https://example.com/images/split.jpg"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
   lineups:
     - x: 60
       y: 50
@@ -40,8 +40,8 @@
 
 - agent: "ヨル"
   role: "デュエリスト"
-  map: "ロータス"
-  image: "https://example.com/images/lotus.jpg"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
   lineups:
     - x: 70
       y: 30
@@ -50,8 +50,8 @@
 
 - agent: "ネオン"
   role: "デュエリスト"
-  map: "パール"
-  image: "https://example.com/images/pearl.jpg"
+  map_name: "パール"
+  map_image: "パール.png"
   lineups:
     - x: 55
       y: 75
@@ -60,8 +60,8 @@
 
 - agent: "アイソ"
   role: "デュエリスト"
-  map: "ブリーズ"
-  image: "https://example.com/images/breeze.jpg"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
   lineups:
     - x: 35
       y: 25
@@ -70,8 +70,8 @@
 
 - agent: "スカイ"
   role: "イニシエーター"
-  map: "ヘイヴン"
-  image: "https://example.com/images/haven.jpg"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
   lineups:
     - x: 40
       y: 60
@@ -80,8 +80,8 @@
 
 - agent: "ソーヴァ"
   role: "イニシエーター"
-  map: "アセント"
-  image: "https://example.com/images/ascent.jpg"
+  map_name: "アセント"
+  map_image: "アセント.png"
   lineups:
     - x: 30
       y: 45
@@ -90,8 +90,8 @@
 
 - agent: "フェイド"
   role: "イニシエーター"
-  map: "パール"
-  image: "https://example.com/images/pearl.jpg"
+  map_name: "パール"
+  map_image: "パール.png"
   lineups:
     - x: 65
       y: 55
@@ -100,8 +100,8 @@
 
 - agent: "ブリーチ"
   role: "イニシエーター"
-  map: "アイスボックス"
-  image: "https://example.com/images/icebox.jpg"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
   lineups:
     - x: 20
       y: 45
@@ -110,8 +110,8 @@
 
 - agent: "KAYO"
   role: "イニシエーター"
-  map: "サンセット"
-  image: "https://example.com/images/sunset.jpg"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
   lineups:
     - x: 70
       y: 40
@@ -120,8 +120,8 @@
 
 - agent: "ゲッコー"
   role: "イニシエーター"
-  map: "フラクチャー"
-  image: "https://example.com/images/fracture.jpg"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
   lineups:
     - x: 55
       y: 65
@@ -130,8 +130,8 @@
 
 - agent: "ブリムストーン"
   role: "コントローラー"
-  map: "アセント"
-  image: "https://example.com/images/ascent.jpg"
+  map_name: "アセント"
+  map_image: "アセント.png"
   lineups:
     - x: 60
       y: 30
@@ -140,8 +140,8 @@
 
 - agent: "オーメン"
   role: "コントローラー"
-  map: "ロータス"
-  image: "https://example.com/images/lotus.jpg"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
   lineups:
     - x: 75
       y: 50
@@ -150,8 +150,8 @@
 
 - agent: "ヴァイパー"
   role: "コントローラー"
-  map: "バインド"
-  image: "https://example.com/images/bind.jpg"
+  map_name: "バインド"
+  map_image: "バインド.png"
   lineups:
     - x: 80
       y: 20
@@ -160,8 +160,8 @@
 
 - agent: "アストラ"
   role: "コントローラー"
-  map: "サンセット"
-  image: "https://example.com/images/sunset.jpg"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
   lineups:
     - x: 30
       y: 70
@@ -170,8 +170,8 @@
 
 - agent: "ハーバー"
   role: "コントローラー"
-  map: "フラクチャー"
-  image: "https://example.com/images/fracture.jpg"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
   lineups:
     - x: 45
       y: 85
@@ -180,8 +180,8 @@
 
 - agent: "クローヴ"
   role: "コントローラー"
-  map: "ブリーズ"
-  image: "https://example.com/images/breeze.jpg"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
   lineups:
     - x: 50
       y: 45
@@ -190,8 +190,8 @@
 
 - agent: "サイファー"
   role: "センチネル"
-  map: "スプリット"
-  image: "https://example.com/images/split.jpg"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
   lineups:
     - x: 60
       y: 50
@@ -200,8 +200,8 @@
 
 - agent: "チェンバー"
   role: "センチネル"
-  map: "アイスボックス"
-  image: "https://example.com/images/icebox.jpg"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
   lineups:
     - x: 70
       y: 25
@@ -210,8 +210,8 @@
 
 - agent: "キルジョイ"
   role: "センチネル"
-  map: "ロータス"
-  image: "https://example.com/images/lotus.jpg"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
   lineups:
     - x: 85
       y: 65
@@ -220,8 +220,8 @@
 
 - agent: "セージ"
   role: "センチネル"
-  map: "パール"
-  image: "https://example.com/images/pearl.jpg"
+  map_name: "パール"
+  map_image: "パール.png"
   lineups:
     - x: 50
       y: 20
@@ -230,8 +230,8 @@
 
 - agent: "デットロック"
   role: "センチネル"
-  map: "バインド"
-  image: "https://www.youtube.com/embed/wwwwwwwwww"
+  map_name: "バインド"
+  map_image: "バインド.png"
   lineups:
     - x: 20
       y: 60
@@ -240,8 +240,8 @@
       
 - agent: "ヴァイス"
   role: "センチネル"
-  map: "サンセット"
-  image: "https://www.youtube.com/embed/wwwwwwwwww"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
   lineups:
     - x: 40
       y: 75
