@@ -73,24 +73,23 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedAgentName.textContent = agentName;
         mapGrid.innerHTML = '';
 
-        // 全てのマップ情報を重複なく取得
-        const allMaps = [...new Set(lineupData
-            .map(item => ({
-                name: item.map_name,
-                image: `マップ/${item.map_image}`
-            }))
-        )];
+        // 重複を排除したマップのリストを作成
+        const uniqueMaps = {};
+        lineupData.forEach(item => {
+            uniqueMaps[item.map_name] = item.map_image;
+        });
         
-        allMaps.forEach(map => {
+        // ユニークなマップをループして表示
+        for (const mapName in uniqueMaps) {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="${map.image}" alt="${map.name}"><p>${map.name}</p>`;
+            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}"><p>${mapName}</p>`;
             
             mapCard.addEventListener('click', () => {
-                displayLineupScreen(agentName, map.name);
+                displayLineupScreen(agentName, mapName);
             });
             mapGrid.appendChild(mapCard);
-        });
+        }
     }
 
     function displayLineupScreen(agentName, mapName) {
