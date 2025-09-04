@@ -2,6 +2,7 @@
   role: "デュエリスト"
   map_name: "アセント"
   map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
   lineups:
     - x: 50
       y: 70
@@ -12,6 +13,7 @@
   role: "デュエリスト"
   map_name: "ヘイヴン"
   map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
   lineups:
     - x: 40
       y: 60
@@ -22,6 +24,7 @@
   role: "デュエリスト"
   map_name: "バインド"
   map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
   lineups:
     - x: 25
       y: 80
@@ -32,6 +35,7 @@
   role: "デュエリスト"
   map_name: "スプリット"
   map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
   lineups:
     - x: 60
       y: 50
@@ -42,6 +46,7 @@
   role: "デュエリスト"
   map_name: "ロータス"
   map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
   lineups:
     - x: 70
       y: 30
@@ -52,6 +57,7 @@
   role: "デュエリスト"
   map_name: "パール"
   map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
   lineups:
     - x: 55
       y: 75
@@ -62,16 +68,40 @@
   role: "デュエリスト"
   map_name: "ブリーズ"
   map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
   lineups:
     - x: 35
       y: 25
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト 定点"
 
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
 - agent: "スカイ"
   role: "イニシエーター"
   map_name: "ヘイヴン"
   map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
   lineups:
     - x: 40
       y: 60
@@ -82,6 +112,7 @@
   role: "イニシエーター"
   map_name: "アセント"
   map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
   lineups:
     - x: 30
       y: 45
@@ -92,6 +123,7 @@
   role: "イニシエーター"
   map_name: "パール"
   map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
   lineups:
     - x: 65
       y: 55
@@ -102,6 +134,7 @@
   role: "イニシエーター"
   map_name: "アイスボックス"
   map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
   lineups:
     - x: 20
       y: 45
@@ -112,6 +145,7 @@
   role: "イニシエーター"
   map_name: "サンセット"
   map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
   lineups:
     - x: 70
       y: 40
@@ -122,6 +156,7 @@
   role: "イニシエーター"
   map_name: "フラクチャー"
   map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
   lineups:
     - x: 55
       y: 65
@@ -132,6 +167,7 @@
   role: "コントローラー"
   map_name: "アセント"
   map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
   lineups:
     - x: 60
       y: 30
@@ -142,6 +178,7 @@
   role: "コントローラー"
   map_name: "ロータス"
   map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
   lineups:
     - x: 75
       y: 50
@@ -152,6 +189,7 @@
   role: "コントローラー"
   map_name: "バインド"
   map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
   lineups:
     - x: 80
       y: 20
@@ -162,6 +200,7 @@
   role: "コントローラー"
   map_name: "サンセット"
   map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
   lineups:
     - x: 30
       y: 70
@@ -172,6 +211,7 @@
   role: "コントローラー"
   map_name: "フラクチャー"
   map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
   lineups:
     - x: 45
       y: 85
@@ -182,6 +222,7 @@
   role: "コントローラー"
   map_name: "ブリーズ"
   map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
   lineups:
     - x: 50
       y: 45
@@ -192,6 +233,7 @@
   role: "センチネル"
   map_name: "スプリット"
   map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
   lineups:
     - x: 60
       y: 50
@@ -202,6 +244,7 @@
   role: "センチネル"
   map_name: "アイスボックス"
   map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
   lineups:
     - x: 70
       y: 25
@@ -212,6 +255,7 @@
   role: "センチネル"
   map_name: "ロータス"
   map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
   lineups:
     - x: 85
       y: 65
@@ -222,6 +266,7 @@
   role: "センチネル"
   map_name: "パール"
   map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
   lineups:
     - x: 50
       y: 20
@@ -232,6 +277,7 @@
   role: "センチネル"
   map_name: "バインド"
   map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
   lineups:
     - x: 20
       y: 60
@@ -242,6 +288,7 @@
   role: "センチネル"
   map_name: "サンセット"
   map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
   lineups:
     - x: 40
       y: 75

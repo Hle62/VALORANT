@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentAgent = agentName;
         
-        // 選択されたキャラクターの名前と画像をセット
         const selectedAgentData = lineupData.find(item => item.agent === agentName);
         if (selectedAgentData) {
             selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent}.png`;
@@ -107,30 +106,32 @@ document.addEventListener('DOMContentLoaded', () => {
         
         selectedMapName.textContent = `${agentName} - ${mapName} 定点`;
         
+        // 選択されたキャラクターとマップの定点情報を取得
         const filteredData = lineupData.find(item => item.agent === agentName && item.map_name === mapName);
 
-        if (filteredData) {
-            mapImage.src = `マップ/${filteredData.map_image}`;
+        // ここを修正
+        if (filteredData && filteredData.detail_map_image) {
+            mapImage.src = `詳細マップ/${filteredData.detail_map_image}`;
             mapImage.style.display = 'block';
+        } else {
+            // 定点情報が存在しない場合、マップ画像を非表示に
+            mapImage.style.display = 'none';
+        }
 
-            mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
+        mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
-            // 該当する定点がない場合も考慮
-            if (filteredData.lineups) {
-                filteredData.lineups.forEach(lineup => {
-                    const dot = document.createElement('div');
-                    dot.classList.add('lineup-dot');
-                    dot.style.left = `${lineup.x}%`;
-                    dot.style.top = `${lineup.y}%`;
-                    dot.onclick = () => {
-                        videoPlayer.src = lineup.video;
-                    };
-                    mapContainer.appendChild(dot);
-                });
-            } else {
-                // 定点がない場合の処理（例: メッセージ表示）
-                console.log('このキャラクターとマップの組み合わせには定点情報がありません。');
-            }
+        // 定点情報が存在する場合のみドットを表示
+        if (filteredData && filteredData.lineups) {
+            filteredData.lineups.forEach(lineup => {
+                const dot = document.createElement('div');
+                dot.classList.add('lineup-dot');
+                dot.style.left = `${lineup.x}%`;
+                dot.style.top = `${lineup.y}%`;
+                dot.onclick = () => {
+                    videoPlayer.src = lineup.video;
+                };
+                mapContainer.appendChild(dot);
+            });
         }
     }
 
