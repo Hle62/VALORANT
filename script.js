@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             agentsByRole[role].forEach(agent => {
                 const agentCard = document.createElement('div');
                 agentCard.classList.add('agent-card');
-                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}">`;
+                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`; // pタグを戻す
                 
                 agentCard.addEventListener('click', () => {
                     displayMapSelection(agent.name);
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const mapName in uniqueMaps) {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`;
+            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`; // pタグは追加しない
             
             mapCard.addEventListener('click', () => {
                 displayLineupScreen(agentName, mapName);
