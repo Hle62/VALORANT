@@ -39,11 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 acc[item.role] = [];
             }
             if (!acc[item.role].some(agent => agent.name === item.agent)) {
-                acc[item.role].push({
+                // ここで画像パスを生成
+                const agentInfo = {
                     name: item.agent,
                     role: item.role,
                     image: `${item.role}/${item.agent}.png`
-                });
+                };
+                acc[item.role].push(agentInfo);
             }
             return acc;
         }, {});
@@ -60,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
                 
                 agentCard.addEventListener('click', () => {
-                    displayMapSelection(agent.name, agent.role);
+                    displayMapSelection(agent.name);
                 });
                 grid.appendChild(agentCard);
             });
@@ -74,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentAgent = agentName;
         
+        // 選択されたキャラクターの名前と画像をセット
         const selectedAgentData = lineupData.find(item => item.agent === agentName);
         if (selectedAgentData) {
             selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent}.png`;
@@ -106,21 +109,17 @@ document.addEventListener('DOMContentLoaded', () => {
         
         selectedMapName.textContent = `${agentName} - ${mapName} 定点`;
         
-        // 選択されたキャラクターとマップの定点情報を取得
         const filteredData = lineupData.find(item => item.agent === agentName && item.map_name === mapName);
 
-        // ここを修正
         if (filteredData && filteredData.detail_map_image) {
             mapImage.src = `詳細マップ/${filteredData.detail_map_image}`;
             mapImage.style.display = 'block';
         } else {
-            // 定点情報が存在しない場合、マップ画像を非表示に
             mapImage.style.display = 'none';
         }
 
         mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
-        // 定点情報が存在する場合のみドットを表示
         if (filteredData && filteredData.lineups) {
             filteredData.lineups.forEach(lineup => {
                 const dot = document.createElement('div');
