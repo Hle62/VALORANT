@@ -16,13 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const mapContainer = document.getElementById('map-container');
     const videoPlayer = document.getElementById('lineup-video');
 
-    let lineupData = [];
-    let currentAgent = null;
+    const attackButton = document.getElementById('attack-button');
+    const defenseButton = document.getElementById('defense-button');
+
+    let lineupData = { maps: [], agents: [] };
+    let currentAgentName = null;
+    let currentMapName = null;
 
     fetch('data/lineups.yml')
         .then(response => response.text())
         .then(yamlText => {
-            lineupData = jsyaml.load(yamlText);
+            const data = jsyaml.load(yamlText);
+            lineupData.maps = data.maps;
+            lineupData.agents = data.agents;
             displayAgentSelection();
         })
         .catch(error => console.error('Error fetching YAML:', error));
@@ -32,20 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
         mapSelectionScreen.style.display = 'none';
         lineupDisplayScreen.style.display = 'none';
         
-        currentAgent = null;
+        currentAgentName = null;
         
-        const agentsByRole = lineupData.reduce((acc, item) => {
+        const agentsByRole = lineupData.agents.reduce((acc, item) => {
             if (!acc[item.role]) {
                 acc[item.role] = [];
             }
-            if (!acc[item.role].some(agent => agent.name === item.agent)) {
-                const agentInfo = {
-                    name: item.agent,
-                    role: item.role,
-                    image: `${item.role}/${item.agent}.png`
-                };
-                acc[item.role].push(agentInfo);
-            }
+            acc[item.role].push(item);
             return acc;
         }, {});
         
@@ -58,10 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
             agentsByRole[role].forEach(agent => {
                 const agentCard = document.createElement('div');
                 agentCard.classList.add('agent-card');
-                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
+                agentCard.innerHTML = `<img src="${agent.role}/${agent.agent_name}.png" alt="${agent.agent_name}"><p>${agent.agent_name}</p>`;
                 
                 agentCard.addEventListener('click', () => {
-                    displayMapSelection(agent.name);
+                    displayMapSelection(agent.agent_name);
                 });
                 grid.appendChild(agentCard);
             });
@@ -73,31 +72,28 @@ document.addEventListener('DOMContentLoaded', () => {
         mapSelectionScreen.style.display = 'block';
         lineupDisplayScreen.style.display = 'none';
 
-        currentAgent = agentName;
+        currentAgentName = agentName;
         
-        const selectedAgentData = lineupData.find(item => item.agent === agentName);
+        const selectedAgentData = lineupData.agents.find(item => item.agent_name === agentName);
         if (selectedAgentData) {
-            selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent}.png`;
+            selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent_name}.png`;
         }
         selectedAgentName.textContent = agentName;
 
         mapGrid.innerHTML = '';
-
-        const uniqueMaps = {};
-        lineupData.forEach(item => {
-            uniqueMaps[item.map_name] = item.map_image;
-        });
         
-        for (const mapName in uniqueMaps) {
+        const allMaps = lineupData.maps;
+
+        allMaps.forEach(map => {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`;
+            mapCard.innerHTML = `<img src="マップ/${map.map_image}" alt="${map.map_name}">`;
             
             mapCard.addEventListener('click', () => {
-                displayLineupScreen(agentName, mapName);
+                displayLineupScreen(agentName, map.map_name);
             });
             mapGrid.appendChild(mapCard);
-        }
+        });
     }
 
     function displayLineupScreen(agentName, mapName) {
@@ -105,30 +101,58 @@ document.addEventListener('DOMContentLoaded', () => {
         mapSelectionScreen.style.display = 'none';
         lineupDisplayScreen.style.display = 'block';
         
-        selectedMapName.textContent = `${agentName} - ${mapName} 定点`;
+        currentAgentName = agentName;
+        currentMapName = mapName;
         
-        const filteredData = lineupData.find(item => item.agent === agentName && item.map_name === mapName);
+        selectedMapName.textContent = `${currentAgentName} - ${currentMapName} 定点`;
 
-        if (filteredData && filteredData.detail_map_image) {
-            mapImage.src = `詳細マップ/${filteredData.detail_map_image}`;
+        const mapInfo = lineupData.maps.find(map => map.map_name === currentMapName);
+        if (mapInfo && mapInfo.detail_map_image) {
+            mapImage.src = `詳細マップ/${mapInfo.detail_map_image}`;
             mapImage.style.display = 'block';
         } else {
             mapImage.style.display = 'none';
         }
 
+        // 最初の表示は攻め（attack）に設定
+        attackButton.classList.add('active');
+        defenseButton.classList.remove('active');
+        updateLineupDots('attack');
+
+        // サイドボタンのイベントリスナーを設定
+        attackButton.onclick = () => {
+            attackButton.classList.add('active');
+            defenseButton.classList.remove('active');
+            updateLineupDots('attack');
+        };
+        defenseButton.onclick = () => {
+            defenseButton.classList.add('active');
+            attackButton.classList.remove('active');
+            updateLineupDots('defense');
+        };
+    }
+
+    function updateLineupDots(side) {
+        const agentData = lineupData.agents.find(item => item.agent_name === currentAgentName);
+        if (!agentData) return;
+
         mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
-        if (filteredData && filteredData.lineups) {
-            filteredData.lineups.forEach(lineup => {
-                const dot = document.createElement('div');
-                dot.classList.add('lineup-dot');
-                dot.style.left = `${lineup.x}%`;
-                dot.style.top = `${lineup.y}%`;
-                dot.onclick = () => {
-                    videoPlayer.src = lineup.video;
-                };
-                mapContainer.appendChild(dot);
-            });
+        const lineupsForMap = agentData.lineups_by_map[currentMapName];
+        
+        if (lineupsForMap) {
+            lineupsForMap
+                .filter(lineup => lineup.side === side)
+                .forEach(lineup => {
+                    const dot = document.createElement('div');
+                    dot.classList.add('lineup-dot');
+                    dot.style.left = `${lineup.x}%`;
+                    dot.style.top = `${lineup.y}%`;
+                    dot.onclick = () => {
+                        videoPlayer.src = lineup.video;
+                    };
+                    mapContainer.appendChild(dot);
+                });
         }
     }
 
@@ -137,8 +161,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     backToMapsButton.addEventListener('click', () => {
-        if (currentAgent) {
-            displayMapSelection(currentAgent);
+        if (currentAgentName) {
+            displayMapSelection(currentAgentName);
         } else {
             displayAgentSelection();
         }
