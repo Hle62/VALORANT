@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 acc[item.role] = [];
             }
             if (!acc[item.role].some(agent => agent.name === item.agent)) {
-                // ここで画像パスを生成
                 const agentInfo = {
                     name: item.agent,
                     role: item.role,
@@ -62,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
                 
                 agentCard.addEventListener('click', () => {
-                    displayMapSelection(agent.name);
+                    displayMapSelection(agent.name, agent.role);
                 });
                 grid.appendChild(agentCard);
             });
@@ -76,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentAgent = agentName;
         
-        // 選択されたキャラクターの名前と画像をセット
         const selectedAgentData = lineupData.find(item => item.agent === agentName);
         if (selectedAgentData) {
             selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent}.png`;
