@@ -9,7 +9,7 @@
       video: "https://www.youtube.com/embed/xxxxxxxxxx"
       name: "Aサイト定点"
 
-- agent: "レイナ"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "ヘイヴン"
   map_image: "ヘイヴン.png"
@@ -20,7 +20,7 @@
       video: "https://www.youtube.com/embed/yyyyyyyyyy"
       name: "Cサイト スモーク"
 
-- agent: "レイズ"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "バインド"
   map_image: "バインド.png"
@@ -31,7 +31,7 @@
       video: "https://www.youtube.com/embed/zzzzzzzzzz"
       name: "Aサイト フラッシュ"
 
-- agent: "フェニックス"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "スプリット"
   map_image: "スプリット.png"
@@ -42,7 +42,7 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "ミッド ワイヤー"
 
-- agent: "ヨル"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "ロータス"
   map_image: "ロータス.png"
@@ -53,7 +53,7 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Cサイト テレポート"
 
-- agent: "ネオン"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "パール"
   map_image: "パール.png"
@@ -64,7 +64,7 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Bサイト 定点"
 
-- agent: "アイソ"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "ブリーズ"
   map_image: "ブリーズ.png"
@@ -75,7 +75,7 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト 定点"
 
-- agent: "アイソ"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "アビス"
   map_image: "アビス.png"
@@ -86,7 +86,7 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Bサイト 定点"
 
-- agent: "アイソ"
+- agent: "ジェット"
   role: "デュエリスト"
   map_name: "カロード"
   map_image: "カロード.png"
