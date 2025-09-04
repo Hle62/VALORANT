@@ -73,15 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedAgentName.textContent = agentName;
         mapGrid.innerHTML = '';
 
-        const mapsForAgent = [...new Set(lineupData
-            .filter(item => item.agent === agentName)
+        // 全てのマップ情報を重複なく取得
+        const allMaps = [...new Set(lineupData
             .map(item => ({
                 name: item.map_name,
-                image: `マップ/${item.map_image}` // マップ画像のパス
+                image: `マップ/${item.map_image}`
             }))
         )];
         
-        mapsForAgent.forEach(map => {
+        allMaps.forEach(map => {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
             mapCard.innerHTML = `<img src="${map.image}" alt="${map.name}"><p>${map.name}</p>`;
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentAgent) {
             displayMapSelection(currentAgent);
         } else {
-            displayAgentSelection(); // 安全策として
+            displayAgentSelection();
         }
     });
 });
