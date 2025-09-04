@@ -1,15 +1,22 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #222;
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #ff4655;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff4655;
 }
 
 main {
@@ -18,105 +25,158 @@ main {
     margin: auto;
 }
 
-.agent-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
 }
 
-/* キャラクターカードの設定 */
-.agent-card {
-    cursor: pointer;
-    width: 150px;
-    text-align: center;
-    border: 2px solid transparent;
-    transition: border-color 0.2s;
+button:hover {
+    background-color: #e63946;
 }
 
-/* マップカードの設定 */
-.map-card {
-    cursor: pointer;
-    width: 250px;
+/* キャラクターとマップのグリッド */
+.role-section {
+    margin-bottom: 30px;
+}
+
+.role-section h2 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.agent-grid, #map-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.agent-card, .map-card {
     text-align: center;
-    border: 2px solid transparent;
-    transition: border-color 0.2s;
+    cursor: pointer;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .agent-card:hover, .map-card:hover {
-    border-color: #ff4655;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* 画像にdisplay: block; を追加して下の余白をなくす */
 .agent-card img, .map-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #555;
+}
+
+.map-card img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    display: block;
 }
 
-/* キャラクター名の表示 */
 .agent-card p {
-    display: block;
-    margin: 5px 0 0;
+    margin-top: 10px;
     font-weight: bold;
 }
 
-/* マップ名の非表示 */
-.map-card p {
-    display: none;
+/* マップ選択画面 */
+#map-selection-screen {
+    text-align: center;
 }
 
-.controls {
-    margin-bottom: 20px;
+#selected-agent-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#selected-agent-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ff4655;
+}
+
+/* 定点表示画面 */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 #map-container {
     position: relative;
     max-width: 800px;
-    margin: auto;
+    width: 100%;
 }
 
 #map-image {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .lineup-dot {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: #ff4655;
     border-radius: 50%;
     cursor: pointer;
+    border: 2px solid #fff;
     transform: translate(-50%, -50%);
+    transition: transform 0.1s;
+}
+
+.lineup-dot:hover {
+    transform: translate(-50%, -50%) scale(1.2);
 }
 
 #video-player {
-    text-align: center;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16/9;
 }
 
-#back-to-agents-button, #back-to-maps-button {
-    background-color: #555;
+#lineup-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* 攻め・守りボタンのスタイル */
+.side-toggle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.side-button {
+    background-color: #444;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
-/* 選択されたキャラクター情報のスタイル */
-#selected-agent-info {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-#selected-agent-info img {
-    width: 70px; /* 画像のサイズを調整 */
-    height: auto;
-    border-radius: 50%; /* 円形にする */
-    border: 3px solid #ff4655;
+.side-button.active {
+    background-color: #ff4655;
+    font-weight: bold;
 }

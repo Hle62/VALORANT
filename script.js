@@ -16,8 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const mapContainer = document.getElementById('map-container');
     const videoPlayer = document.getElementById('lineup-video');
 
+    const attackButton = document.getElementById('attack-button');
+    const defenseButton = document.getElementById('defense-button');
+
     let lineupData = [];
     let currentAgent = null;
+    let currentMap = null;
 
     fetch('data/lineups.yml')
         .then(response => response.text())
@@ -61,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
                 
                 agentCard.addEventListener('click', () => {
-                    displayMapSelection(agent.name, agent.role);
+                    displayMapSelection(agent.name);
                 });
                 grid.appendChild(agentCard);
             });
@@ -83,7 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         mapGrid.innerHTML = '';
 
-        // マップ情報を重複なく取得
         const allMaps = lineupData.flatMap(item => item.maps);
         const uniqueMaps = new Map(allMaps.map(map => [map.map_name, map.map_image]));
 
@@ -106,18 +109,33 @@ document.addEventListener('DOMContentLoaded', () => {
         
         selectedMapName.textContent = `${agentName} - ${mapName} 定点`;
         
-        // 新しいデータ構造に合わせて、キャラクターとマップの情報を探す
-        const agentData = lineupData.find(item => item.agent === agentName);
-        if (!agentData) {
-            console.error('Agent data not found.');
-            return;
-        }
+        currentAgent = agentName;
+        currentMap = mapName;
+        
+        // 最初の表示は攻め（attack）に設定
+        attackButton.classList.add('active');
+        defenseButton.classList.remove('active');
+        updateLineupDots('attack');
 
-        const mapData = agentData.maps.find(map => map.map_name === mapName);
-        if (!mapData) {
-            console.error('Map data not found for selected agent.');
-            return;
-        }
+        // サイドボタンのイベントリスナーを設定
+        attackButton.onclick = () => {
+            attackButton.classList.add('active');
+            defenseButton.classList.remove('active');
+            updateLineupDots('attack');
+        };
+        defenseButton.onclick = () => {
+            defenseButton.classList.add('active');
+            attackButton.classList.remove('active');
+            updateLineupDots('defense');
+        };
+    }
+
+    function updateLineupDots(side) {
+        const agentData = lineupData.find(item => item.agent === currentAgent);
+        if (!agentData) return;
+
+        const mapData = agentData.maps.find(map => map.map_name === currentMap);
+        if (!mapData) return;
 
         if (mapData.detail_map_image) {
             mapImage.src = `詳細マップ/${mapData.detail_map_image}`;
@@ -129,16 +147,18 @@ document.addEventListener('DOMContentLoaded', () => {
         mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
         if (mapData.lineups) {
-            mapData.lineups.forEach(lineup => {
-                const dot = document.createElement('div');
-                dot.classList.add('lineup-dot');
-                dot.style.left = `${lineup.x}%`;
-                dot.style.top = `${lineup.y}%`;
-                dot.onclick = () => {
-                    videoPlayer.src = lineup.video;
-                };
-                mapContainer.appendChild(dot);
-            });
+            mapData.lineups
+                .filter(lineup => lineup.side === side)
+                .forEach(lineup => {
+                    const dot = document.createElement('div');
+                    dot.classList.add('lineup-dot');
+                    dot.style.left = `${lineup.x}%`;
+                    dot.style.top = `${lineup.y}%`;
+                    dot.onclick = () => {
+                        videoPlayer.src = lineup.video;
+                    };
+                    mapContainer.appendChild(dot);
+                });
         }
     }
 

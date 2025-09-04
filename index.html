@@ -33,18 +33,21 @@
 
         <section id="map-selection-screen" style="display:none;">
             <button id="back-to-agents-button">キャラクター選択に戻る</button>
-            
             <div id="selected-agent-info">
                 <img id="selected-agent-image" src="" alt="">
                 <h2 id="selected-agent-name"></h2>
             </div>
-
             <div id="map-grid" class="agent-grid"></div>
         </section>
 
         <section id="lineup-display-screen" style="display:none;">
             <button id="back-to-maps-button">マップ選択に戻る</button>
             <h2 id="selected-map-name"></h2>
+
+            <div class="side-toggle">
+                <button id="attack-button" class="side-button active" data-side="attack">攻め</button>
+                <button id="defense-button" class="side-button" data-side="defense">守り</button>
+            </div>
             
             <section class="content">
                 <div id="map-container">

@@ -7,96 +7,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "レイナ"
   role: "デュエリスト"
@@ -107,96 +179,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "レイズ"
   role: "デュエリスト"
@@ -207,96 +351,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "フェニックス"
   role: "デュエリスト"
@@ -307,96 +523,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ヨル"
   role: "デュエリスト"
@@ -407,96 +695,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ネオン"
   role: "デュエリスト"
@@ -507,96 +867,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "アイソ"
   role: "デュエリスト"
@@ -607,96 +1039,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "スカイ"
   role: "イニシエーター"
@@ -707,96 +1211,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト フラッシュ"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ソーヴァ"
   role: "イニシエーター"
@@ -807,96 +1383,168 @@
       lineups:
         - x: 30
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Bサイト 定点"
+        - x: 60
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Cサイト フラッシュ"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "フェイド"
   role: "イニシエーター"
@@ -907,96 +1555,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 65
           y: 55
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Bサイト ドローン"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ブリーチ"
   role: "イニシエーター"
@@ -1007,96 +1727,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "KAYO"
   role: "イニシエーター"
@@ -1107,96 +1899,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ゲッコー"
   role: "イニシエーター"
@@ -1207,96 +2071,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ブリムストーン"
   role: "コントローラー"
@@ -1307,96 +2243,168 @@
       lineups:
         - x: 60
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト スモーク"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト スモーク"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "オーメン"
   role: "コントローラー"
@@ -1407,96 +2415,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 75
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト スモーク"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ヴァイパー"
   role: "コントローラー"
@@ -1507,96 +2587,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 80
           y: 20
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト オーブ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "アストラ"
   role: "コントローラー"
@@ -1607,96 +2759,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "ハーバー"
   role: "コントローラー"
@@ -1707,96 +2931,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
-          name: "Cサイト テレポート"
+          name: "Cサイト スモーク"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "クローヴ"
   role: "コントローラー"
@@ -1807,96 +3103,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
-          name: "Cサイト テレポート"
+          name: "Cサイト スモーク"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "サイファー"
   role: "センチネル"
@@ -1907,96 +3275,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "チェンバー"
   role: "センチネル"
@@ -2007,96 +3447,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 70
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 20
+          y: 45
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "キルジョイ"
   role: "センチネル"
@@ -2107,96 +3619,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 85
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト ロボット"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "セージ"
   role: "センチネル"
@@ -2207,96 +3791,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 50
           y: 20
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 壁"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
 
 - agent: "デットロック"
   role: "センチネル"
@@ -2307,96 +3963,168 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 20
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト グラビティ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
       
 - agent: "ヴァイス"
   role: "センチネル"
@@ -2407,93 +4135,165 @@
       lineups:
         - x: 50
           y: 70
+          side: "attack"
           video: "https://www.youtube.com/embed/xxxxxxxxxx"
           name: "Aサイト定点"
+        - x: 20
+          y: 20
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "ヘイヴン"
       map_image: "ヘイヴン.png"
       detail_map_image: "ヘイヴン詳細.png"
       lineups:
         - x: 40
           y: 60
+          side: "attack"
           video: "https://www.youtube.com/embed/yyyyyyyyyy"
           name: "Cサイト スモーク"
+        - x: 70
+          y: 80
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "バインド"
       map_image: "バインド.png"
       detail_map_image: "バインド詳細.png"
       lineups:
         - x: 25
           y: 80
+          side: "attack"
           video: "https://www.youtube.com/embed/zzzzzzzzzz"
           name: "Aサイト フラッシュ"
+        - x: 15
+          y: 40
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "スプリット"
       map_image: "スプリット.png"
       detail_map_image: "スプリット詳細.png"
       lineups:
         - x: 60
           y: 50
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "ミッド ワイヤー"
+        - x: 80
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "ロータス"
       map_image: "ロータス.png"
       detail_map_image: "ロータス詳細.png"
       lineups:
         - x: 70
           y: 30
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト テレポート"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "パール"
       map_image: "パール.png"
       detail_map_image: "パール詳細.png"
       lineups:
         - x: 55
           y: 75
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 25
+          y: 35
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "ブリーズ"
       map_image: "ブリーズ.png"
       detail_map_image: "ブリーズ詳細.png"
       lineups:
         - x: 35
           y: 25
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト 定点"
+        - x: 65
+          y: 65
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アビス"
       map_image: "アビス.png"
       detail_map_image: "アビス詳細.png"
       lineups:
         - x: 45
           y: 35
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト 定点"
+        - x: 55
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Cサイト防衛"
     - map_name: "カロード"
       map_image: "カロード.png"
       detail_map_image: "カロード詳細.png"
       lineups:
         - x: 55
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Cサイト 定点"
+        - x: 35
+          y: 55
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Bサイト防衛"
     - map_name: "アイスボックス"
       map_image: "アイスボックス.png"
       detail_map_image: "アイスボックス詳細.png"
       lineups:
         - x: 20
           y: 45
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Aサイト フラッシュ"
+        - x: 80
+          y: 50
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "ミッド防衛"
     - map_name: "サンセット"
       map_image: "サンセット.png"
       detail_map_image: "サンセット詳細.png"
       lineups:
         - x: 70
           y: 40
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト フラッシュ"
+        - x: 30
+          y: 60
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
     - map_name: "フラクチャー"
       map_image: "フラクチャー.png"
       detail_map_image: "フラクチャー詳細.png"
       lineups:
         - x: 55
           y: 65
+          side: "attack"
           video: "https://www.youtube.com/embed/wwwwwwwwww"
           name: "Bサイト スティンガー"
+        - x: 45
+          y: 25
+          side: "defense"
+          video: "https://www.youtube.com/embed/defense_video"
+          name: "Aサイト防衛"
