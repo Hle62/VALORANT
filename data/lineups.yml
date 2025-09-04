@@ -9,7 +9,271 @@
       video: "https://www.youtube.com/embed/xxxxxxxxxx"
       name: "Aサイト定点"
 
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ジェット"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
 - agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+    lineups:
+      - x: 70
+        y: 30
+        video: "https://www.youtube.com/embed/wwwwwwwwww"
+        name: "Cサイト テレポート"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "レイナ"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "レイズ"
   role: "デュエリスト"
   map_name: "ヘイヴン"
   map_image: "ヘイヴン.png"
@@ -31,7 +295,271 @@
       video: "https://www.youtube.com/embed/zzzzzzzzzz"
       name: "Aサイト フラッシュ"
 
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "レイズ"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+    
 - agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "フェニックス"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ヨル"
   role: "デュエリスト"
   map_name: "スプリット"
   map_image: "スプリット.png"
@@ -53,7 +581,271 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Cサイト テレポート"
 
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ヨル"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
 - agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ネオン"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "アイソ"
   role: "デュエリスト"
   map_name: "パール"
   map_image: "パール.png"
@@ -97,6 +889,50 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Cサイト 定点"
 
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "アイソ"
+  role: "デュエリスト"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
 - agent: "スカイ"
   role: "イニシエーター"
   map_name: "ヘイヴン"
@@ -105,8 +941,118 @@
   lineups:
     - x: 40
       y: 60
-      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
       name: "Cサイト フラッシュ"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "スカイ"
+  role: "イニシエーター"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
 
 - agent: "ソーヴァ"
   role: "イニシエーター"
@@ -119,6 +1065,182 @@
       video: "https://www.youtube.com/embed/yyyyyyyyyy"
       name: "Bサイト 定点"
 
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Cサイト フラッシュ"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ソーヴァ"
+  role: "イニシエーター"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
 - agent: "フェイド"
   role: "イニシエーター"
   map_name: "パール"
@@ -129,6 +1251,171 @@
       y: 55
       video: "https://www.youtube.com/embed/zzzzzzzzzz"
       name: "Bサイト ドローン"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "フェイド"
+  role: "イニシエーター"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
 
 - agent: "ブリーチ"
   role: "イニシエーター"
@@ -141,7 +1428,271 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト フラッシュ"
 
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ブリーチ"
+  role: "イニシエーター"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
 - agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "KAYO"
+  role: "イニシエーター"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ゲッコー"
+  role: "イニシエーター"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ゲッコー"
   role: "イニシエーター"
   map_name: "サンセット"
   map_image: "サンセット.png"
@@ -174,6 +1725,171 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト スモーク"
 
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト スモーク"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ブリムストーン"
+  role: "コントローラー"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
 - agent: "オーメン"
   role: "コントローラー"
   map_name: "ロータス"
@@ -183,6 +1899,105 @@
     - x: 75
       y: 50
       video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト スモーク"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "オーメン"
+  role: "コントローラー"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
       name: "Cサイト スモーク"
 
 - agent: "ヴァイパー"
@@ -196,16 +2011,357 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト オーブ"
 
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "ヴァイパー"
+  role: "コントローラー"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
 - agent: "アストラ"
   role: "コントローラー"
   map_name: "サンセット"
   map_image: "サンセット.png"
   detail_map_image: "サンセット詳細.png"
   lineups:
-    - x: 30
-      y: 70
+    - x: 70
+      y: 40
       video: "https://www.youtube.com/embed/wwwwwwwwww"
-      name: "Bサイト スター"
+      name: "Bサイト フラッシュ"
+
+- agent: "アストラ"
+  role: "コントローラー"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "ハーバー"
+  role: "コントローラー"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
 
 - agent: "ハーバー"
   role: "コントローラー"
@@ -213,10 +2369,76 @@
   map_image: "フラクチャー.png"
   detail_map_image: "フラクチャー詳細.png"
   lineups:
-    - x: 45
-      y: 85
+    - x: 55
+      y: 65
       video: "https://www.youtube.com/embed/wwwwwwwwww"
-      name: "Bサイト ウォール"
+      name: "Bサイト スティンガー"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
 
 - agent: "クローヴ"
   role: "コントローラー"
@@ -224,10 +2446,98 @@
   map_image: "ブリーズ.png"
   detail_map_image: "ブリーズ詳細.png"
   lineups:
-    - x: 50
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
       y: 45
       video: "https://www.youtube.com/embed/wwwwwwwwww"
-      name: "Bサイト スモーク"
+      name: "Cサイト 定点"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "クローヴ"
+  role: "コントローラー"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
 
 - agent: "サイファー"
   role: "センチネル"
@@ -240,6 +2550,193 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "ミッド ワイヤー"
 
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "サイファー"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
 - agent: "チェンバー"
   role: "センチネル"
   map_name: "アイスボックス"
@@ -250,6 +2747,72 @@
       y: 25
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Bサイト 定点"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "チェンバー"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
 
 - agent: "キルジョイ"
   role: "センチネル"
@@ -262,6 +2825,138 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Cサイト ロボット"
 
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "キルジョイ"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
 - agent: "セージ"
   role: "センチネル"
   map_name: "パール"
@@ -273,6 +2968,94 @@
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト 壁"
 
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "セージ"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
 - agent: "デットロック"
   role: "センチネル"
   map_name: "バインド"
@@ -283,14 +3066,234 @@
       y: 60
       video: "https://www.youtube.com/embed/wwwwwwwwww"
       name: "Aサイト グラビティ"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "サンセット"
+  map_image: "サンセット.png"
+  detail_map_image: "サンセット詳細.png"
+  lineups:
+    - x: 70
+      y: 40
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト フラッシュ"
+
+- agent: "デットロック"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
       
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "アセント"
+  map_image: "アセント.png"
+  detail_map_image: "アセント詳細.png"
+  lineups:
+    - x: 50
+      y: 70
+      video: "https://www.youtube.com/embed/xxxxxxxxxx"
+      name: "Aサイト定点"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "ヘイヴン"
+  map_image: "ヘイヴン.png"
+  detail_map_image: "ヘイヴン詳細.png"
+  lineups:
+    - x: 40
+      y: 60
+      video: "https://www.youtube.com/embed/yyyyyyyyyy"
+      name: "Cサイト スモーク"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "バインド"
+  map_image: "バインド.png"
+  detail_map_image: "バインド詳細.png"
+  lineups:
+    - x: 25
+      y: 80
+      video: "https://www.youtube.com/embed/zzzzzzzzzz"
+      name: "Aサイト フラッシュ"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "スプリット"
+  map_image: "スプリット.png"
+  detail_map_image: "スプリット詳細.png"
+  lineups:
+    - x: 60
+      y: 50
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "ミッド ワイヤー"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "ロータス"
+  map_image: "ロータス.png"
+  detail_map_image: "ロータス詳細.png"
+  lineups:
+    - x: 70
+      y: 30
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト テレポート"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "パール"
+  map_image: "パール.png"
+  detail_map_image: "パール詳細.png"
+  lineups:
+    - x: 55
+      y: 75
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "ブリーズ"
+  map_image: "ブリーズ.png"
+  detail_map_image: "ブリーズ詳細.png"
+  lineups:
+    - x: 35
+      y: 25
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト 定点"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "アビス"
+  map_image: "アビス.png"
+  detail_map_image: "アビス詳細.png"
+  lineups:
+    - x: 45
+      y: 35
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト 定点"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "カロード"
+  map_image: "カロード.png"
+  detail_map_image: "カロード詳細.png"
+  lineups:
+    - x: 55
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Cサイト 定点"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "アイスボックス"
+  map_image: "アイスボックス.png"
+  detail_map_image: "アイスボックス詳細.png"
+  lineups:
+    - x: 20
+      y: 45
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Aサイト フラッシュ"
+
 - agent: "ヴァイス"
   role: "センチネル"
   map_name: "サンセット"
   map_image: "サンセット.png"
   detail_map_image: "サンセット詳細.png"
   lineups:
-    - x: 40
-      y: 75
+    - x: 70
+      y: 40
       video: "https://www.youtube.com/embed/wwwwwwwwww"
-      name: "Bサイト 壁"
+      name: "Bサイト フラッシュ"
+
+- agent: "ヴァイス"
+  role: "センチネル"
+  map_name: "フラクチャー"
+  map_image: "フラクチャー.png"
+  detail_map_image: "フラクチャー詳細.png"
+  lineups:
+    - x: 55
+      y: 65
+      video: "https://www.youtube.com/embed/wwwwwwwwww"
+      name: "Bサイト スティンガー"
