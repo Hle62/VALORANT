@@ -83,21 +83,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         mapGrid.innerHTML = '';
 
-        const uniqueMaps = {};
-        lineupData.forEach(item => {
-            uniqueMaps[item.map_name] = item.map_image;
-        });
-        
-        for (const mapName in uniqueMaps) {
+        // マップ情報を重複なく取得
+        const allMaps = lineupData.flatMap(item => item.maps);
+        const uniqueMaps = new Map(allMaps.map(map => [map.map_name, map.map_image]));
+
+        uniqueMaps.forEach((mapImageFile, mapName) => {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`;
+            mapCard.innerHTML = `<img src="マップ/${mapImageFile}" alt="${mapName}">`;
             
             mapCard.addEventListener('click', () => {
                 displayLineupScreen(agentName, mapName);
             });
             mapGrid.appendChild(mapCard);
-        }
+        });
     }
 
     function displayLineupScreen(agentName, mapName) {
@@ -107,10 +106,21 @@ document.addEventListener('DOMContentLoaded', () => {
         
         selectedMapName.textContent = `${agentName} - ${mapName} 定点`;
         
-        const filteredData = lineupData.find(item => item.agent === agentName && item.map_name === mapName);
+        // 新しいデータ構造に合わせて、キャラクターとマップの情報を探す
+        const agentData = lineupData.find(item => item.agent === agentName);
+        if (!agentData) {
+            console.error('Agent data not found.');
+            return;
+        }
 
-        if (filteredData && filteredData.detail_map_image) {
-            mapImage.src = `詳細マップ/${filteredData.detail_map_image}`;
+        const mapData = agentData.maps.find(map => map.map_name === mapName);
+        if (!mapData) {
+            console.error('Map data not found for selected agent.');
+            return;
+        }
+
+        if (mapData.detail_map_image) {
+            mapImage.src = `詳細マップ/${mapData.detail_map_image}`;
             mapImage.style.display = 'block';
         } else {
             mapImage.style.display = 'none';
@@ -118,8 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
-        if (filteredData && filteredData.lineups) {
-            filteredData.lineups.forEach(lineup => {
+        if (mapData.lineups) {
+            mapData.lineups.forEach(lineup => {
                 const dot = document.createElement('div');
                 dot.classList.add('lineup-dot');
                 dot.style.left = `${lineup.x}%`;
