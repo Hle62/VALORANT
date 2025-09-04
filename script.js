@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const backToAgentsButton = document.getElementById('back-to-agents-button');
     const backToMapsButton = document.getElementById('back-to-maps-button');
     
+    const selectedAgentInfo = document.getElementById('selected-agent-info');
+    const selectedAgentImage = document.getElementById('selected-agent-image');
     const selectedAgentName = document.getElementById('selected-agent-name');
     const selectedMapName = document.getElementById('selected-map-name');
     
@@ -39,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!acc[item.role].some(agent => agent.name === item.agent)) {
                 acc[item.role].push({
                     name: item.agent,
+                    role: item.role,
                     image: `${item.role}/${item.agent}.png`
                 });
             }
@@ -54,10 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
             agentsByRole[role].forEach(agent => {
                 const agentCard = document.createElement('div');
                 agentCard.classList.add('agent-card');
-                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`; // pタグを戻す
+                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
                 
                 agentCard.addEventListener('click', () => {
-                    displayMapSelection(agent.name);
+                    displayMapSelection(agent.name, agent.role);
                 });
                 grid.appendChild(agentCard);
             });
@@ -70,7 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {
         lineupDisplayScreen.style.display = 'none';
 
         currentAgent = agentName;
+        
+        // 選択されたキャラクターの名前と画像をセット
+        const selectedAgentData = lineupData.find(item => item.agent === agentName);
+        if (selectedAgentData) {
+            selectedAgentImage.src = `${selectedAgentData.role}/${selectedAgentData.agent}.png`;
+        }
         selectedAgentName.textContent = agentName;
+
         mapGrid.innerHTML = '';
 
         const uniqueMaps = {};
@@ -81,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const mapName in uniqueMaps) {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`; // pタグは追加しない
+            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`;
             
             mapCard.addEventListener('click', () => {
                 displayLineupScreen(agentName, mapName);
@@ -105,16 +115,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             mapContainer.querySelectorAll('.lineup-dot').forEach(dot => dot.remove());
 
-            filteredData.lineups.forEach(lineup => {
-                const dot = document.createElement('div');
-                dot.classList.add('lineup-dot');
-                dot.style.left = `${lineup.x}%`;
-                dot.style.top = `${lineup.y}%`;
-                dot.onclick = () => {
-                    videoPlayer.src = lineup.video;
-                };
-                mapContainer.appendChild(dot);
-            });
+            // 該当する定点がない場合も考慮
+            if (filteredData.lineups) {
+                filteredData.lineups.forEach(lineup => {
+                    const dot = document.createElement('div');
+                    dot.classList.add('lineup-dot');
+                    dot.style.left = `${lineup.x}%`;
+                    dot.style.top = `${lineup.y}%`;
+                    dot.onclick = () => {
+                        videoPlayer.src = lineup.video;
+                    };
+                    mapContainer.appendChild(dot);
+                });
+            } else {
+                // 定点がない場合の処理（例: メッセージ表示）
+                console.log('このキャラクターとマップの組み合わせには定点情報がありません。');
+            }
         }
     }
 

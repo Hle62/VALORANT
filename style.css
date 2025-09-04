@@ -56,12 +56,12 @@ main {
 
 /* キャラクター名の表示 */
 .agent-card p {
-    display: block; /* この行を追加 */
+    display: block;
     margin: 5px 0 0;
     font-weight: bold;
 }
 
-/* マップ名の非表示（前回からの変更なし） */
+/* マップ名の非表示 */
 .map-card p {
     display: none;
 }
@@ -104,4 +104,19 @@ main {
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+/* 選択されたキャラクター情報のスタイル */
+#selected-agent-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#selected-agent-info img {
+    width: 70px; /* 画像のサイズを調整 */
+    height: auto;
+    border-radius: 50%; /* 円形にする */
+    border: 3px solid #ff4655;
 }
