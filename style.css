@@ -26,7 +26,8 @@ main {
 
 .agent-card, .map-card {
     cursor: pointer;
-    width: 150px;
+    /* 画像サイズを大きく変更 */
+    width: 250px;
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.2s;
@@ -42,9 +43,9 @@ main {
     border-radius: 5px;
 }
 
+/* 画像下の文字を非表示に */
 .agent-card p, .map-card p {
-    margin: 5px 0 0;
-    font-weight: bold;
+    display: none;
 }
 
 .controls {
@@ -77,7 +78,6 @@ main {
     margin-top: 20px;
 }
 
-/* 戻るボタンのスタイル */
 #back-to-agents-button, #back-to-maps-button {
     background-color: #555;
     color: white;

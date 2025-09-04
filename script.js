@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             agentsByRole[role].forEach(agent => {
                 const agentCard = document.createElement('div');
                 agentCard.classList.add('agent-card');
-                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}"><p>${agent.name}</p>`;
+                agentCard.innerHTML = `<img src="${agent.image}" alt="${agent.name}">`;
                 
                 agentCard.addEventListener('click', () => {
                     displayMapSelection(agent.name);
@@ -73,17 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedAgentName.textContent = agentName;
         mapGrid.innerHTML = '';
 
-        // 重複を排除したマップのリストを作成
         const uniqueMaps = {};
         lineupData.forEach(item => {
             uniqueMaps[item.map_name] = item.map_image;
         });
         
-        // ユニークなマップをループして表示
         for (const mapName in uniqueMaps) {
             const mapCard = document.createElement('div');
             mapCard.classList.add('map-card');
-            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}"><p>${mapName}</p>`;
+            mapCard.innerHTML = `<img src="マップ/${uniqueMaps[mapName]}" alt="${mapName}">`;
             
             mapCard.addEventListener('click', () => {
                 displayLineupScreen(agentName, mapName);
