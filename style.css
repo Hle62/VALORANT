@@ -51,9 +51,16 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.agent-grid, #map-grid {
+.agent-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* マップ選択画面のグリッド設定 */
+#map-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     justify-content: center;
 }
@@ -109,12 +116,13 @@ button:hover {
     margin-top: 0;
 }
 
+/* 選択されたキャラクター情報とマップグリッドの配置を修正 */
 #selected-agent-info {
     display: flex;
-    align-items: center; /* 追加：垂直方向の中央揃え */
+    align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 20px;
+    margin: 20px auto; /* 画面中央に配置 */
 }
 
 #selected-agent-info img {
@@ -124,16 +132,17 @@ button:hover {
     border: 3px solid #ff4655;
 }
 
-/* マップ画像のサイズを大きく */
+/* マップ選択グリッドの配置を調整 */
 #map-grid {
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
     justify-content: center;
 }
 
 .map-card {
     width: 200px;
 }
-
 
 /* 定点表示画面 */
 #lineup-display-screen {
@@ -173,7 +182,7 @@ button:hover {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #ff4655;
+    background-color: red;
     border-radius: 50%;
     cursor: pointer;
     border: 2px solid #fff;
