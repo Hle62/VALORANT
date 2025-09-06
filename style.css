@@ -229,8 +229,8 @@ button:hover {
 
 .close-button {
     position: absolute;
-    top: -30px;
-    right: -30px;
+    top: -45px; /* ボタンと動画の距離を調整 */
+    right: -45px; /* ボタンと動画の距離を調整 */
     background: #ff4655;
     color: white;
     border: none;
@@ -239,4 +239,9 @@ button:hover {
     height: 40px;
     font-size: 1.5em;
     cursor: pointer;
+
+    /* Xを中央に配置 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
