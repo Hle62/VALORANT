@@ -112,7 +112,7 @@ button:hover {
 #selected-agent-info {
     display: flex;
     align-items: center;
-    justify-content: left; /* 左寄せに変更 */
+    justify-content: center; /* 中央寄せに戻す */
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -127,7 +127,7 @@ button:hover {
 /* マップ画像のサイズを大きく */
 #map-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    justify-content: left;
+    justify-content: center; /* 中央寄せに戻す */
 }
 
 .map-card {
@@ -173,7 +173,7 @@ button:hover {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #ff4655;
+    background-color: red;
     border-radius: 50%;
     cursor: pointer;
     border: 2px solid #fff;
