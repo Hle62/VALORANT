@@ -91,14 +91,13 @@ button:hover {
 
 /* マップ選択画面のレイアウト */
 #map-selection-screen {
-    text-align: center;
+    text-align: left;
 }
 
-/* マップ選択画面のキャラクター情報 */
 #selected-agent-info {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;  この行を削除 */
+    justify-content: left;
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -111,7 +110,6 @@ button:hover {
     display: block;
 }
 
-/* マップ選択画面のグリッド */
 #map-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -136,8 +134,7 @@ button:hover {
 }
 
 /* 戻るボタンの配置 */
-#back-to-agents-button,
-#back-to-maps-button {
+#back-to-agents-button, #back-to-maps-button {
     margin: 20px 0;
     display: block;
 }
