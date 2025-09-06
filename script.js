@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const mapGrid = document.getElementById('map-grid');
     const mapImage = document.getElementById('map-image');
     const mapContainer = document.getElementById('map-container');
-    const videoPlayer = document.getElementById('lineup-video');
+
+    const videoPopup = document.getElementById('video-popup');
+    const lineupVideo = document.getElementById('lineup-video');
+    const closePopupButton = document.getElementById('close-popup-button');
 
     const attackButton = document.getElementById('attack-button');
     const defenseButton = document.getElementById('defense-button');
@@ -114,12 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
             mapImage.style.display = 'none';
         }
 
-        // 最初の表示は攻め（attack）に設定
         attackButton.classList.add('active');
         defenseButton.classList.remove('active');
         updateLineupDots('attack');
 
-        // サイドボタンのイベントリスナーを設定
         attackButton.onclick = () => {
             attackButton.classList.add('active');
             defenseButton.classList.remove('active');
@@ -149,12 +150,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     dot.style.left = `${lineup.x}%`;
                     dot.style.top = `${lineup.y}%`;
                     dot.onclick = () => {
-                        videoPlayer.src = lineup.video;
+                        lineupVideo.src = lineup.video;
+                        videoPopup.style.display = 'flex';
                     };
                     mapContainer.appendChild(dot);
                 });
         }
     }
+
+    // ポップアップを閉じる処理
+    closePopupButton.addEventListener('click', () => {
+        lineupVideo.src = ''; // 動画を停止
+        videoPopup.style.display = 'none';
+    });
 
     backToAgentsButton.addEventListener('click', () => {
         displayAgentSelection();

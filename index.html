@@ -43,22 +43,24 @@
         <section id="lineup-display-screen" style="display:none;">
             <button id="back-to-maps-button">マップ選択に戻る</button>
             <h2 id="selected-map-name"></h2>
-
             <div class="side-toggle">
                 <button id="attack-button" class="side-button active" data-side="attack">攻め</button>
                 <button id="defense-button" class="side-button" data-side="defense">守り</button>
             </div>
-            
             <section class="content">
                 <div id="map-container">
                     <img id="map-image" src="" alt="マップ画像" style="display:none;">
                 </div>
-                <div id="video-player">
-                    <iframe id="lineup-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-                </div>
             </section>
         </section>
     </main>
+    
+    <div id="video-popup" class="video-popup" style="display:none;">
+        <div class="video-container">
+            <iframe id="lineup-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            <button id="close-popup-button" class="close-button">X</button>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="script.js"></script>
