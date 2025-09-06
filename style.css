@@ -100,7 +100,7 @@ button:hover {
 
 /* マップ選択画面のレイアウト変更 */
 #map-selection-screen {
-    text-align: left; /* 左寄せに変更 */
+    text-align: left;
 }
 
 /* キャラクター画面に戻るボタンの配置を調整 */
@@ -111,8 +111,8 @@ button:hover {
 
 #selected-agent-info {
     display: flex;
-    align-items: center;
-    justify-content: center; /* 中央寄せに戻す */
+    align-items: center; /* 追加：垂直方向の中央揃え */
+    justify-content: center;
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -127,7 +127,7 @@ button:hover {
 /* マップ画像のサイズを大きく */
 #map-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    justify-content: center; /* 中央寄せに戻す */
+    justify-content: center;
 }
 
 .map-card {
@@ -173,7 +173,7 @@ button:hover {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: #ff4655;
     border-radius: 50%;
     cursor: pointer;
     border: 2px solid #fff;
