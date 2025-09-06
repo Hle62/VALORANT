@@ -96,8 +96,7 @@ button:hover {
 
 #selected-agent-info {
     display: flex;
-    /* align-items: center;  この行を削除 */
-    justify-content: left;
+    justify-content: center; /* 中央寄せを維持 */
     gap: 15px;
     margin-bottom: 20px;
 }
